@@ -35,7 +35,7 @@ def render_sidebar():
         st.session_state["api_provider"] = provider
 
         if provider == "Gemini":
-            model_name = "gemini-2.0-flash"
+            model_name = "gemini-2.5-flash"
             st.caption(f"Model: {model_name}")
         else:
             model_name = "gpt-4o"
